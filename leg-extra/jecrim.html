@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap 4 project documentation theme for developers</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->    
+    <link rel="stylesheet" href="../assets/plugins/prism/prism.css">
+    <link rel="stylesheet" href="../assets/plugins/elegant_font/css/style.css">  
+      
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="../assets/css/styles.css">
+    
+</head> 
+
+<body class="body-green">
+    <div class="page-wrapper">
+        <!-- ******Header****** -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="branding">
+                    <h1 class="logo">
+                        <a href="index.html">
+                            <span aria-hidden="true" class="icon_documents_alt icon"></span>
+                            <span class="text-highlight">Repo</span><span class="text-bold">Concursos</span>
+                        </a>
+                    </h1>
+                </div><!--//branding-->
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                    <li class="breadcrumb-item active"><a href="../leg-extra.html">Legislação Extravagante</a></li>
+                    <li class="breadcrumb-item active">JECRIM</li>
+                </ol>
+            </div><!--//container-->
+        </header><!--//header-->
+        <div class="doc-wrapper">
+            <div class="container">
+                <div id="doc-header" class="doc-header text-center">
+                    <h1 class="doc-title">JECRIM - <a href="http://www.planalto.gov.br/CCIVil_03/leis/L9099.htm" target="_blank">Lei 9.099/95</a></h1>
+                    <div class="meta"></i> Atualizado: 25 de fevereiro de 2019</div>
+                </div><!--//doc-header-->
+                <div class="doc-body row">
+                    <div class="doc-content col-md-9 col-12 order-1">
+                        <div class="content-inner">
+                            
+                            <section id="jecrim-section" class="doc-section">
+                                <h2 class="section-title">Juizados Especiais Criminais</h2>
+                                <div class="section-block">
+                                    <p>Os Juizados Especiais Criminais (JECRIMs) têm competência para julgar as Infrações de Menor Potencial Ofensivo (IMPOs), segundo a lei:</p>
+                                    <blockquote class="blockquote alert-light">
+                                        <p class="mb-0 lead"><i>O Juizado Especial Criminal, provido por juízes togados ou togados e leigos, tem competência para a conciliação, o julgamento e a execução das infrações penais de menor potencial ofensivo, respeitadas as regras de conexão e continência.</i></p>
+                                        <footer class="blockquote-footer">Art. 60</footer>
+                                    </blockquote>
+                                </div>
+                            </section><!--//doc-section-->
+                            
+                            <section id="impo-section" class="doc-section">
+                                <h2 class="section-title">IMPOs</h2>
+                                <div class="section-block">
+                                    <p>As Infrações de Menor Potencial Ofensivo (IMPOs) são aquelas definidas na lei para as quais são cabíveis medidas especiais de investigação e persecução penal.</p>
+                                    <blockquote class="blockquote alert-light">
+                                        <p class="mb-0 lead"><i>Consideram-se infrações penais de menor potencial ofensivo, para os efeitos desta Lei, as contravenções penais e os crimes a que a lei comine pena máxima não superior a 2 (dois) anos, cumulada ou não com multa.</i></p>
+                                        <footer class="blockquote-footer">Art. 61</footer>
+                                    </blockquote>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="alert alert-success" role="alert">
+                                                <h5>Menor Potencial Ofensivo</h5>
+                                                <ul>
+                                                    <li>Contravenções Penais</li>
+                                                    <li>Crimes</li>
+                                                        <ul>
+                                                            <li>Máx. &le; 2 anos</li>
+                                                        </ul>
+                                                </ul>                                        
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="alert alert-warning" role="alert">
+                                                <h5>Médio Potencial Ofensivo</h5>
+                                                <ul>
+                                                    <li>Crimes</li>
+                                                        <ul>
+                                                            <li>Mín. &le; 1 ano</li>
+                                                            <li>Máx. &gt; 2 anos</li>
+                                                        </ul>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="alert alert-danger" role="alert">
+                                                <h5>Alto Potencial Ofensivo</h5>
+                                                <ul>
+                                                    <li>Crimes</li>
+                                                        <ul>
+                                                            <li>Mín. &gt; 1 ano</li>
+                                                            <li>Máx. &gt; 2 anos</li>
+                                                        </ul>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div><!-- //row -->
+                                <p>Quando cometida uma IMPO, a autoridade judiciária lavrará <mark>Termo Circunstanciado (TC)</mark> como substituição ao inquérito policial. O TC é um ato caracterizado pela informalidade, celeridade e economia processual, que não possui portaria e nem relatório final e com resumo das versões, sem redução a termo.</p>
+                                <div class="alert alert-dark" role="alert">
+                                    <h6>Jurisprudência</h6>
+                                    STF e CNJ já concluíram que o TC é procedimento formal de polícia judiciária e, quando lavrado pela PM, constitui usurpação de função.
+                                </div>
+                            </section><!--//doc-section-->
+                            
+                            <section id="medidas-section" class="doc-section">
+                                <h2 class="section-title">Medidas Despenalizadoras</h2>
+                                <div id="tp" class="section-block">
+                                    <h3 class="block-title">Transação Penal</h3>
+                                    <p>Medida sumaríssima que substitui a ação penal nos casos de <mark>IMPO</mark>, dando ao indiciado a opção de não ser denunciado pelo MP e mitigando a exigência do devido proceso legal. Não gera antencedência e nem reincidência. É formulado um acordo homologado pelo juiz que extingue a punibilidade quando cumpridas as condições.</p>
+                                    <h6 class="block">Requisitos (art. 76, §2°)</h6>
+                                    <ol>
+                                        <li>Não pode o indiciado ter sido condenado (definitivamente), por crime, a pena privativa de liberdade.</li>
+                                        <li>Não pode o indiciado ter usufruido de TP nos últimos 5 anos.</li>
+                                        <li>Não indicarem que a medida é suficiente a conduta social, a personalidade, os motivos e as circunstâncias.</li>
+                                    </ol>
+                                    <p>Uma vez cumpridas as condições impostas em juízo, fica extinta a punibilidade do agente.</p>
+                                    <h6 class="block">Concurso de Crimes</h6>
+                                    <p>Quando houver <mark>concurso material</mark>, considera-se a soma das penas máximas para o cabimento de TP. Quando houver <mark>concurso formal</mark>, considera-se a pena máxima com aumento máximo para o cabimento de TP. Em ambos os casos, o montante final dever ser inferior ou igual a 2 anos.</p>
+                                    <h6 class="block">Oferecimento da Denúncia</h6>
+                                    <p>Não é cabível a TP e a denúncia é oferecida, nos seguintes casos:</p>
+                                    <ol>
+                                        <li>Não preenchimento dos requisitos do art. 76, §2°.</li>
+                                        <li>Não aceitação da proposta de TP, por parte do indiciado.</li>
+                                        <li>Não não cumprimento da TP aceita, uma vez que tal decisão gera apenas coisa julgada formal.</li>
+                                    </ol>
+                                    <p>Nestes casos, o andamento do processo é retomado e a denúncia é oferecida pelo MP.</p>
+                                </div><!--//section-block-->
+                                
+                                <div id="scp"  class="section-block">
+                                    <h3 class="block-title">Suspensão Condicional do Processo</h3>
+                                    <p>Medida que suspende a ação penal, trazendo despenalização e celeridade. A Suspensão Condicional do Processo (SCP ou ainda <i>sursis</i> processual) é cabível aos autores de <mark>infrações de médio potencial ofensivo</mark>.</p>
+                                    <blockquote class="blockquote alert-light">
+                                        <p class="mb-0 lead"><i>Nos crimes em que a pena mínima cominada for igual ou inferior a um ano, abrangidas ou não por esta Lei, o Ministério Público, ao oferecer a denúncia, poderá propor a suspensão do processo, por dois a quatro anos, desde que o acusado não esteja sendo processado ou não tenha sido condenado por outro crime, presentes os demais requisitos que autorizariam a suspensão condicional da pena <a href="http://www.planalto.gov.br/ccivil_03/decreto-lei/Del2848compilado.htm" target="_blank">(art. 77 CP)</a>.</i></p>
+                                        <footer class="blockquote-footer">Art. 89</footer>
+                                    </blockquote>
+                                    <p>Diferentemente da TP, a SCP <mark>gera antecedência e é considerada para fins de reincidência</mark>.</p>
+                                    <h6 class="block">Requisitos</h6>
+                                    <ol>
+                                        <li>Não pode o indiciado ter sido condenado (definitivamente), por crime, a pena privativa de liberdade.</li>
+                                        <li>Não pode o indiciado ter usufruido de TP nos últimos 5 anos.</li>
+                                        <li>Requisitos do <i>sursis</i> penal presentes no <a href="http://www.planalto.gov.br/ccivil_03/decreto-lei/Del2848compilado.htm" target="_blank">(art. 77 CP)</a>.</li>
+                                    </ol>
+                                    <h6 class="block">Concurso de Crimes</h6>
+                                    <p>Quando houver <mark>concurso material</mark>, considera-se a soma das penas mínimas para o cabimento de SCP. Quando houver <mark>concurso formal</mark>, considera-se a pena mínima com aumento mínimo para o cabimento de TP. Em ambos os casos, o montante final dever ser inferior ou igual a 1 ano.</p>
+                                    <h6 class="block">Condições (art. 89, §1°)</h6>
+                                    <p>Após a denúncia do MP, feita proposta de SCP pelo juiz, o acusado poderá aceitá-la, sendo submetido a período de prova e cumprindo os seguintes requisitos:</p>
+                                    <ol>
+                                        <li>Reparação do dano, salvo impossibilidade de fazê-lo.</li>
+                                        <li>Proibição de frequentar determinados lugares.</li>
+                                        <li>Proibição de ausentar-se da comarca onde reside, sem autorização do Juiz.</li>
+                                        <li>Comparecimento pessoal e obrigatório a juízo, mensalmente, para informar e justificar suas atividades.</li>
+                                    </ol>
+                                    <p>O Juiz ainda pode especificar outras condições à SCP (art. 89, §3°).</p>
+                                    <h6 class="block">Causas de Revogação</h6>
+                                    <h6 class="block">Observações</h6>
+                                </div><!--//section-block-->
+                                
+                                <div id="comp-civil"  class="section-block">
+                                    <h3 class="block-title">Composição Civil</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.</p>
+                                </div><!--//section-block-->
+                                
+                            </section><!--//doc-section-->
+                        
+                        </div><!--//content-inner-->
+                    </div><!--//doc-content-->
+                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                        <div id="doc-nav" class="doc-nav">
+	                        
+	                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+	                                <a class="nav-link scrollto" href="#jecrim-section">JECRIMs</a>
+	                                <a class="nav-link scrollto" href="#impo-section">IMPOs</a>
+	                                <a class="nav-link scrollto" href="#medidas-section">Medidas Despenalizadoras</a>
+                                    <nav class="doc-sub-menu nav flex-column">
+                                        <a class="nav-link scrollto" href="#tp">Transação Penal</a>
+                                        <a class="nav-link scrollto" href="#scp">Suspensão Condicional do Processo</a>
+                                        <a class="nav-link scrollto" href="#comp-civil">Composição Civil</a>
+                                    </nav><!--//nav-->
+	                            </nav><!--//doc-menu-->
+	                        
+                        </div>
+                    </div><!--//doc-sidebar-->
+                </div><!--//doc-body-->              
+            </div><!--//container-->
+        </div><!--//doc-wrapper-->
+        
+        <div id="promo-block" class="promo-block">
+            <div class="container">
+                <div class="promo-block-inner">
+                    <h3 class="promo-title text-center"><i class="fas fa-heart"></i> <a href="https://themes.3rdwavemedia.com/bootstrap-templates/portfolio/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">Are you an ambitious and entrepreneurial developer?</a></h3>
+                    <div class="row">
+                        <div class="figure-holder col-lg-5 col-md-6 col-12">
+                            <div class="figure-holder-inner">
+                                <a href="https://themes.3rdwavemedia.com/bootstrap-templates/portfolio/instance-bootstrap-portfolio-theme-for-developers/" target="_blank"><img class="img-fluid" src="assets/images/demo/instance-promo.jpg" alt="Instance Theme" /></a>
+                                <a class="mask" href="https://themes.3rdwavemedia.com/bootstrap-templates/portfolio/instance-bootstrap-portfolio-theme-for-developers/"><i class="icon fa fa-heart pink"></i></a>
+                                
+                            </div>
+                        </div><!--//figure-holder-->
+                        <div class="content-holder col-lg-7 col-md-6 col-12">
+                            <div class="content-holder-inner">
+                                <div class="desc">
+                                    <h4 class="content-title"><strong> Instance - Bootstrap 4 Portfolio Theme for Aspiring Developers</strong></h4>
+                                    <p>Check out <a href="https://themes.3rdwavemedia.com/bootstrap-templates/portfolio/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">Instance</a> - a Bootstrap personal portfolio theme I created for developers. The UX design is focused on selling a developer’s skills and experience to potential employers or clients, and has <strong class="highlight">all the winning ingredients to get you hired</strong>. It’s not only a HTML site template but also a marketing framework for you to <strong class="highlight">build an impressive online presence with a high conversion rate</strong>. </p>
+                                    <p><strong class="highlight">[Tip for developers]:</strong> If your project is Open Source, you can use this area to promote your other projects or hold third party adverts like Bootstrap and FontAwesome do!</p>
+                                    <a class="btn btn-cta" href="https://themes.3rdwavemedia.com/bootstrap-templates/portfolio/instance-bootstrap-portfolio-theme-for-developers/" target="_blank"><i class="fas fa-external-link-alt"></i> View Demo</a>
+                                    
+                                </div><!--//desc-->
+                                
+                                
+                                <div class="author"><a href="https://themes.3rdwavemedia.com">Xiaoying Riley</a></div>
+                            </div><!--//content-holder-inner-->
+                        </div><!--//content-holder-->
+                    </div><!--//row-->
+                </div><!--//promo-block-inner-->  
+            </div><!--//container-->
+        </div><!--//promo-block-->
+        
+    </div><!--//page-wrapper-->
+    
+    <footer id="footer" class="footer text-center">
+        <div class="container">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> for developers</small>
+            
+        </div><!--//container-->
+    </footer><!--//footer-->
+    
+     
+    <!-- Main Javascript -->          
+    <script type="text/javascript" src="../assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../assets/plugins/prism/prism.js"></script>    
+    <script type="text/javascript" src="../assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>      
+    <script type="text/javascript" src="../assets/plugins/stickyfill/dist/stickyfill.min.js"></script>                                                             
+    <script type="text/javascript" src="../assets/js/main.js"></script>
+    
+</body>
+</html> 
+
