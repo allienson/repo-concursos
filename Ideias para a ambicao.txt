@@ -22,3 +22,107 @@ http://blogdofernandomesquita.com.br/ciclo-de-estudos/
 http://blogdofernandomesquita.com.br/duas-estrategias-para-aprovacao-mais-rapida/
 http://blogdofernandomesquita.com.br/reducao-do-atrito-como-fazer-mais-parecer-menos/
 http://www.scielo.br/pdf/bjmbr/v41n6/7019.pdf
+http://blogdofernandomesquita.com.br/escassez-resultados/
+http://blogdofernandomesquita.com.br/ensaio-sobre-prioridades/
+
+
+SESSOES
+	- A1 = estudo da aula do dia
+	- A2 = estudo da aula do dia / organizacao
+	- B1 = materias do ciclo do edital
+ 	- B2 = materias do ciclo do edital
+ 	- RM = revisao de mapas 15min
+	- C  = materia da aula do dia seguinte
+	- D1 = Redação
+	- E1 = Revisão da Semana (exercicios/simulado)
+	- E2 = Revisão da Semana (exercicios/simulado)
+	- F1 = materias do ciclo do edital
+	- F2 = materias do ciclo do edital
+	- G  = organizacao
+				- completar materiais incompletos
+				- preparar materiais para semana seguinte
+				- analisar simulados e questoes
+				- analisar mapas
+				- etc
+
+
+
+GERAL
+
+	-tamanhos das sessoes
+		-inicio
+			- E 24min  40
+			- A 12min  20 
+			- R 24min  40
+		-meio
+			- E 24min  40
+			- A 18min  30
+			- R 18min  30
+		-fim
+			- E 12min  20
+			- A 36min  60
+			- R 12min  20
+	- mesclando o tempo de adaptacao entre os periodos
+
+
+Exercicios
+
+X mins de tempo para exercicios com 1,5 min para cada exercicio
+
+quant_exerc = x/1.5
+
+- adaptar o material de revisao durante a aplicacao
+	- "os resultados negativos da aplicação são utilizados para
+aumentar e reforçar seu material de revisão. Ou seja, você
+erra um ponto e esse ponto automaticamente vira um novo
+ramo em seu mapa mental ou um novo parágrafo ou linha
+em seu resumo"
+	- figura pagina 121
+
+- pagina 105 do ciclo eara
+	-tipos de resolucao - patrola
+					    - semaforo
+					    - cientista
+
+REVISAO
+
+- mapas
+	- revisados todos os dias nos primeiros 30 dias
+	- a cada 15 dias nos 2 meses seguintes
+	- 1x por mes nos 6 meses seguintes
+	- pagina 147 INTEIRA
+	 pagina 148 INTEIRA
+	-  Via de regra, ele deve ser aplicado àquilo que lhe é mais
+difícil, mais detalhado, mais complexo ou mais importante
+	-
+
+
+ADAPTACAO
+	- pagina 156
+	- simulados de revisao
+
+RECEITA DO BOLO
+
+Comece a ler o livro; (Estudo)
+ Enquanto o lê, vá criando seus mapas mentais – apenas
+os pontos principais (estudo + revisão). Os desenhos
+podem vir depois;
+ Após terminar de ler, faça uma rápida revisão em todos
+os mapas produzidos. A depender do assunto, pode ser
+que você tenha 2, 10 ou 100 mapas. Vai depender do
+detalhamento. O ideal é que os mapas sejam de fácil
+leitura, portanto tenderão a ser menores, contendo
+menos informações (ramos) por folha; (Revisão)
+ Faça exercícios; (aplicação)
+ Analise seu resultado nos exercícios. Se você estiver na
+fase patrola, não precisa se preocupar tanto com os
+resultados. Se estiver na fase semáforo ou cientista,
+avalie suas respostas. (adaptação)
+Fernando Mesquita
+156
+ Revise. Analise se o material de revisão contemplava as
+questões erradas? O que aconteceu? Atue sobre o
+problema. Adapte-se. (adaptação)
+ Cresça. Encerre a disciplina. Passe para a próxima
+disciplina e repita os passos anteriores. (adaptação e
+reinício do ciclo)
