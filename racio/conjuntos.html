@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>REPO Concursos</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
+    <!-- MathJax -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->    
+    <link rel="stylesheet" href="../assets/plugins/prism/prism.css">
+    <link rel="stylesheet" href="../assets/plugins/elegant_font/css/style.css">  
+      
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="../assets/css/styles.css">
+    
+</head> 
+
+<body class="body-blue">
+    <div class="page-wrapper">
+        <!-- ******Header****** -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="branding">
+                    <h1 class="logo">
+                        <a href="index.html">
+                            <span aria-hidden="true" class="icon_documents_alt icon"></span>
+                            <span class="text-highlight">Repo</span><span class="text-bold">Concursos</span>
+                        </a>
+                    </h1>
+                </div><!--//branding-->
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                    <li class="breadcrumb-item active"><a href="racio.html">Raciocínio Lógico</a></li>
+                    <li class="breadcrumb-item active">Teoria de Conjuntos</li>
+                </ol>
+            </div><!--//container-->
+        </header><!--//header-->
+        <div class="doc-wrapper">
+            <div class="container">
+                <div id="doc-header" class="doc-header text-center">
+                    <h1 class="doc-title">Teoria de Conjuntos</h1>
+                    <div class="meta"></i> Atualizado: 11 de março de 2019</div>
+                </div><!--//doc-header-->
+                <div class="doc-body row">
+                    <div class="doc-content col-md-9 col-12 order-1">
+                        <div class="content-inner">
+                            
+                            <section id="conceito-section" class="doc-section">
+                                <h2 class="section-title">Conceito</h2>
+                                <div class="section-block">
+                                    <p>Um conjunto é uma coleção bem definida de elementos de qualqur natureza, ou ainda:</p>
+                                    <blockquote class="blockquote alert-light">
+                                        <p class="mb-0 lead"><i>"Uma coleção, considerada como um todo, de objetos distintos e definidos da nossa intuição ou penasamento. Os objetos são chamados de elementos do conjunto."</i></p>
+                                        <footer class="blockquote-footer">Georg Cantor</footer>
+                                    </blockquote> </p>
+                                    <p>$$ A = \{a, b, c, \dots\} $$</p>
+                                    <p>$$ B = \{ x \in \mathbb{N} \, | \, x \, é \, par\}$$</p>
+                                </div>
+                            </section><!--//doc-section-->
+
+                            <section id="axiomas-section" class="doc-section">
+                                <h2 class="section-title">Axiomas</h2>
+                                <div class="section-block">
+                                    <h5>Axioma \( A_1 \) - Extensão</h5>
+                                    <p>Dois conjuntos \(A\) e \(B\) são iguais se e somente se possuem os mesmos elementos.</p>
+                                    <p>$$ A = B \iff (\forall x)(x \in A \iff x \in B) $$</p>                                  
+                                    <h5>Axioma \( A_2 \) - Vazio</h5>
+                                    <p>Um conjunto é vazio quando não possuir nenhum elemento. Ainda assim, existe o conjunto.</p>
+                                    <p>$$ \exists A \, (\forall x) \, \neg(x \in A) $$</p>
+                                    <h5>Axioma \( A_3 \) - Separação</h5>
+                                    
+                                </div>
+                            </section><!--//doc-section-->
+                            
+                            <section id="venn-section" class="doc-section">
+                                <h2 class="section-title">Diagramas de Venn</h2>
+                                <div class="section-block">
+                                    <p>Criados pelo matemático John Venn para representar graficamente três conjuntos e suas intersecções.</p> 
+                                    <div class="text-center">
+                                        <img src="../assets/images/venn.jpg" class="img-fluid" alt="Responsive image">
+                                    </div>
+                                </div>
+                            </section><!--//doc-section-->
+                            
+                    
+                        </div><!--//content-inner-->
+                    </div><!--//doc-content-->
+                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                        <div id="doc-nav" class="doc-nav">
+	                        
+	                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+	                                <a class="nav-link scrollto" href="#prop-section">Proposições Lógicas</a>
+	                                <a class="nav-link scrollto" href="#op-section">Operadores Lógicos</a>
+	                                <a class="nav-link scrollto" href="#equiv-section">Equivalências Lógicas</a>
+                                    <a class="nav-link scrollto" href="#argumen-section">Argumentação</a>
+                                    <a class="nav-link scrollto" href="#mapas-section">Mapas</a>
+	                            </nav><!--//doc-menu-->
+	                        
+                        </div>
+                    </div><!--//doc-sidebar-->
+                </div><!--//doc-body-->              
+            </div><!--//container-->
+        </div><!--//doc-wrapper-->
+        
+        <div id="promo-block" class="promo-block">
+            <div class="container">
+                <section id="mapas-section" class="doc-section">
+                               
+                                <div class="accordion" id="accordionExample">
+                                  <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                      <h2 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                          Collapsible Group Item #1
+                                        </button>
+                                      </h2>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                      <div class="card-body">
+                                        <img src="maps/1.png" class="d-block w-100" alt="...">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                      <h2 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                          Collapsible Group Item #2
+                                        </button>
+                                      </h2>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                      <div class="card-body">
+                                        <img src="maps/2.png" class="d-block w-100" alt="...">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                      <h2 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                          Collapsible Group Item #3
+                                        </button>
+                                      </h2>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                      <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                </section><!--//doc-section-->
+
+
+            </div><!--//container-->
+        </div><!--//promo-block-->
+        
+    </div><!--//page-wrapper-->
+    
+    <footer id="footer" class="footer text-center">
+        <div class="container">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> for developers</small>
+            
+        </div><!--//container-->
+    </footer><!--//footer-->
+    
+     
+    <!-- Main Javascript -->          
+    <script type="text/javascript" src="../assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../assets/plugins/prism/prism.js"></script>    
+    <script type="text/javascript" src="../assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>      
+    <script type="text/javascript" src="../assets/plugins/stickyfill/dist/stickyfill.min.js"></script>                                                             
+    <script type="text/javascript" src="../assets/js/main.js"></script>
+    
+</body>
+</html> 
+
