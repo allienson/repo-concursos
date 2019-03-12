@@ -72,10 +72,10 @@
                                 <div class="section-block">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <h5>Operador de DISJUNÇÃO (ou)</h5>
+                                            <h3>Operador de DISJUNÇÃO (ou)</h3>
                                             <p>Operador que faz a disjunção (or) de duas sentenças atômicas.</p>
                                             <div class="table-responsive">
-                                                <table class="table table-hover text-center">
+                                                <table class="table table-hover table-sm text-center">
                                                     <thead class="thead-dark">
                                                         <tr>
                                                             <th>\(A\)</th>
@@ -110,10 +110,10 @@
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <h5>Operador de CONJUNÇÃO (e)</h5>
+                                            <h3>Operador de CONJUNÇÃO (e)</h3>
                                             <p>Operador que faz a conjunção (and) de duas sentenças atômicas.</p>
                                             <div class="table-responsive">
-                                                <table class="table table-hover text-center">
+                                                <table class="table table-hover table-sm text-center">
                                                     <thead class="thead-dark">  
                                                         <tr>
                                                             <th>\( A \)</th>
@@ -150,10 +150,10 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <h5>Operador de DISJUNÇÃO EXCLUSIVA(ou...ou)</h5>
+                                            <h3>Operador de DISJUNÇÃO EXCLUSIVA(ou...ou)</h3>
                                             <p>Operador que faz a disjunção exclusiva (xor) de duas sentenças atômicas.</p>
                                             <div class="table-responsive">
-                                                <table class="table table-hover text-center">
+                                                <table class="table table-hover table-sm text-center">
                                                     <thead class="thead-dark">
                                                         <tr>
                                                             <th>\( A \)</th>
@@ -188,10 +188,10 @@
                                             </div> 
                                         </div>
                                         <div class="col-md-6">
-                                            <h5>Operador BICONDICIONAL (se e somente se)</h5>
+                                            <h3>Operador BICONDICIONAL (se e somente se)</h3>
                                             <p>Operador que condiona os valors de duas sentenças atômicas, em ambos os sentidos.</p>
                                             <div class="table-responsive">
-                                                <table class="table table-hover text-center">
+                                                <table class="table table-hover table-sm text-center">
                                                     <thead class="thead-dark">
                                                         <tr>
                                                             <th>\( A \)</th>
@@ -228,10 +228,10 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <h5>Operador CONDICIONAL (se...então)</h5>
+                                            <h3>Operador CONDICIONAL (se...então)</h3>
                                             <p>Operador que condiona os valores de duas sentenças atômicas.</p>
                                             <div class="table-responsive">
-                                                <table class="table table-hover text-center">
+                                                <table class="table table-hover table-sm text-center">
                                                     <thead class="thead-dark">
                                                         <tr>
                                                             <th>\( A \)</th>
@@ -266,10 +266,10 @@
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <h5>Operador de NEGAÇÃO (não)</h5>
+                                            <h3>Operador de NEGAÇÃO (não)</h3>
                                             <p>Operador que nega (not) o valor de uma setença atômica ou composta.</p>
                                             <div class="table-responsive">
-                                                <table class="table table-hover text-center">
+                                                <table class="table table-hover table-sm text-center">
                                                     <thead class="thead-dark">
                                                         <tr>
                                                             <th>\( A \)</th>
@@ -296,6 +296,48 @@
                                 </div>
                             </section><!--//doc-section-->
                             
+                            <section id="quant-section" class="doc-section">
+                                <h2 class="section-title">Quantificadores Lógicos</h2>
+                                <div class="section-block">
+                                    <h3>Quantificadores</h3>
+                                    <p>Operadores especiais de inclusão de elementos em class (conjuntos) cuja é de universalidade e existência. São dividos em quatro tipos, com as vogais das palavras latinas <i>AffIrmo</i> e <i>nEgO</i>. Dessa forma, há dois qunatificadores de natureza afirmativa e dois de natureza negativa.</p>
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h4>Universal Afirmativa - Tipo A</h4>
+                                            <p>Todo A é B, ou seja, \( (\forall x)(A(x) \to B(x)) \)</p>
+                                            <div class="w-50 p-3">
+                                                <img src="img/a_in_b.png" class="img-fluid" alt="Responsive image">  
+                                            </div>                                    
+                                        </div>
+                                        <div class="col-md-6">
+                                                <h4>Existencial Negativa - Tipo O</h4>
+                                                <p>Algum A não é B, ou seja, \( (\exists x)(A(x) \land \neg B(x)) \)</p>
+                                                <div class="w-50 p-3">
+                                                <img src="img/a_in_b.png" class="img-fluid" alt="Responsive image">  
+                                            </div>
+                                        </div>
+                                    </div><!-- //row -->
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h4>Existencial Afirmativa - Tipo I</h4>
+                                                <p>Algum A é B, ou seja, \( (\exists x)(A(x) \land B(x)) \)</p>
+                                                <div class="w-50 p-3">
+                                                <img src="img/a_in_b.png" class="img-fluid" alt="Responsive image">  
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h4>Universal Negativa - Tipo E</h4>
+                                            <p>Nenhum A é B, ou seja, \( \neg(\exists x)(A(x) \land B(x)) \)</p>
+                                            <div class="w-50 p-3">
+                                                <img src="img/a_in_b.png" class="img-fluid" alt="Responsive image">  
+                                            </div>
+                                        </div>
+                                    </div><!-- //row -->
+                                    
+                                </div>
+                            </section><!--//doc-section-->
+
                             <section id="equiv-section" class="doc-section">
                                 <h2 class="section-title">Equivalências Lógicas</h2>
                                 <div class="section-block">
@@ -349,6 +391,19 @@
                                     <p>$$ (P_1 \land P_2 \land \dots \land P_{n-1}) \to P_n $$</p>
                                 </div>
                             </section><!--//doc-section-->
+
+                            <section id="reso-section" class="doc-section">
+                                <h2 class="section-title">Técnicas para Resolução de Exercícios</h2>
+                                <div class="section-block">
+                                    <h4>Silogismo Hipotético</h4>
+                                    <p>Consiste em criar uma nova proposição, baseada na transitividade de proposições da base de conhecimento. Dessa forma, sempre que a base de conhecimento trouxer as duas premissas iniciais \( A \to B\) e \( B \to C\) como verdadeiras, podemos inferir que \( A \to C \) também será verdadeira.</p>
+                                    <p>$$ P_1:\, A \to B = V \\ P_2: \, B \to C = V $$ $$ P_c: \, A \to C = V $$</p>
+                                    <h4>Refutação por Hipótese</h4>
+                                    <p>Consiste em atribuir um valor à proposição em análise, de forma a "forçar" um absurdo na base de conhecimento. Para tanto, absta escolher valores que agreguem informações na hipótese. Quando a análise for feita sobre uma proposição condicional, deve-se considerá-la falsa como ponto de partida. Por outro lado, uma proposição conjuntiva, deve ser considerada verdadeira como ponto de partida. E assim, escolhendo corretamente a hipótese, é possível chegar no absurdo, o que invalida a hipótese e garante o valor da proposição analisada.</p>
+                                    <p>O único cuidado a ser tomado é em relação a hipóteses que se confirmem, ou seja, aquelas que não geram absurdo, pois a partir delas não é possível inferir um valor definitivo para a proposição em análise. Nesses casos, é preciso utlizar uma outra hipótese.</p>
+                                    
+                                </div>
+                            </section><!--//doc-section-->
                             
                     
                         </div><!--//content-inner-->
@@ -359,8 +414,10 @@
 	                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
 	                                <a class="nav-link scrollto" href="#prop-section">Proposições Lógicas</a>
 	                                <a class="nav-link scrollto" href="#op-section">Operadores Lógicos</a>
+                                    <a class="nav-link scrollto" href="#quant-section">Quantificadores Lógicos</a>
 	                                <a class="nav-link scrollto" href="#equiv-section">Equivalências Lógicas</a>
                                     <a class="nav-link scrollto" href="#argumen-section">Argumentação</a>
+                                    <a class="nav-link scrollto" href="#reso-section">Técnicas de Resolução</a>
                                     <a class="nav-link scrollto" href="#mapas-section">Mapas</a>
 	                            </nav><!--//doc-menu-->
 	                        
