@@ -20,6 +20,12 @@
       
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="../assets/css/styles.css">
+
+    <script type="text/javascript">
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
     
 </head> 
 
@@ -55,20 +61,32 @@
                             
                             <section id="jecrim-section" class="doc-section">
                                 <h2 class="section-title">Aspectos da Redação Oficial</h2>
-                                    <p><a class="btn btn-orange" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"> Q965560</a></p>
                                     
-                                    <div class="collapse" id="collapseExample">
-                                        <div class="callout-block callout-warning">
-                                            <div class="icon-holder">
-                                                <i class="fas fa-question-circle"></i>
-                                            </div><!--//icon-holder-->
-                                            <div class="content">
-                                                <h4 class="callout-title">CESPE - PRF - 2019</h4>
-                                                <p>Julgue o seguinte item, a respeito das ideias e das construções linguísticas do texto apresentado. As formas pronominais “Estas” (ℓ.4) e “las” (ℓ.7) referem-se a “necessidades dos seres humanos” (ℓ. 2 e 3).</p>
-                                                <span>oʇɹǝɔ :ɐʇsodsǝɹ</span>
-                                            </div><!--//content-->
-                                        </div><!--//callout-block-->
+                                    <button type="button" class="btn btn-orange" data-toggle="modal" data-target="#Q965560">Q965560</button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="Q965560" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLongTitle">CESPE - PRF - 2019</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="questoes/imagem-009.jpg">
+                                                    <hr>
+                                                    <p>O emprego do pronome possessivo “sua" (l.2) marca a ligação da Declaração dos Direitos do Homem e do Cidadão com a França e reforça, consequentemente, o contraste com a ideia de universalismo registrada no texto por elementos como “humanos", “mundial" e “em cada canto deste vasto mundo".</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Certo">Resposta</button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
+
+
                                 <div class="section-block">
                                     
                                 </div>
